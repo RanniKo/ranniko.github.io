@@ -17,11 +17,8 @@ tags: [DATA STRUCTURE]
 - MFU - Most Frequently used : 참조 횟수가 가장 많은 페이지 교체
 - NUR - Not Used Recently : 최근에 사용하지 않은 페이지 교체
 
-
-<br>
-<br>
-{: .text-right }
+<br/>
+<br/>
 ###### #Reference
-<br>
+<br/>
 [참고](https://doh-an.tistory.com/28)
-{: .text-right }
