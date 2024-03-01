@@ -16,6 +16,6 @@ tags: [ETC]
 <br>
 <br>
 ###### #Reference
-{: .text-right }
+
 [참고](https://m.blog.naver.com/dlwhdgur20/221006619001)
-{: .text-right }
+
