@@ -2,7 +2,7 @@
 title: 이진 탐색(Binary Search)
 layout: post
 categories: [Algorithm]
-tags: [Algorithm]
+tags: [ALGORITHM]
 ---
 
 ## 이진 탐색 = 이분 탐색
