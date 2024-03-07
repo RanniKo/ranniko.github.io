@@ -123,6 +123,7 @@ Set<T> synchronizedSet(Set<T> set) → 동기화된 Set 반환
 #### 3-1. PriorityQueue  
 > a. 이진 트리 구조  
 > b. 원소에 우선순위를 부여하여 높은 순으로 먼저 반환  
+
 ```
   //오름차순
   Queue<Integer> queue = new PriorityQueue<>();
@@ -194,6 +195,7 @@ Set<T> synchronizedSet(Set<T> set) → 동기화된 Set 반환
 #### 4-2. Hashtable  
 > a. HashMap과 동일한 특징  
 > b. Thread-Safe  
+
 ```
   Map<Integer, String> map = new Hashtable<>();
   map.put(2, "test1");
@@ -209,6 +211,7 @@ Set<T> synchronizedSet(Set<T> set) → 동기화된 Set 반환
 
 #### 4-3. LinkedHashMap  
 > put 한 순서대로 순서를 갖는다.  
+
 ```
   Map<Integer, String> map = new LinkedHashMap<>();
   map.put(2, "test1");
@@ -230,8 +233,9 @@ Set<T> synchronizedSet(Set<T> set) → 동기화된 Set 반환
 ```  
 
 #### 4-4. TreeMap  
-> a. 이진 트리로 구성, TreeSet과 동일하게 정렬하여 데이터 저장    
+> a. 이진 트리로 구성, TreeSet과 동일하게 정렬하여 데이터 저장  
 > b. 데이터 저장 시 정렬하기 때문에, 시간이 다른 자료구조에 비해 오래걸림  
+
 ```
   //Map<Integer, String> map = new TreeMap<>();//오름차순
   Map<Integer, String> map = new TreeMap<>(Collections.reverseOrder());//내림차순
