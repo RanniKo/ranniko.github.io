@@ -151,7 +151,7 @@ Set<T> synchronizedSet(Set<T> set) → 동기화된 Set 반환
 #### 3-2. ArrayDeque  
 > a. 양쪽에 넣고 빼는게 가능한 구조  
 
-![deque](/assets/img/java/deque.jpeg)  
+![deque](/assets/img/java/deque.png)  
 
 ```
   Deque<Integer> deque = new ArrayDeque<>();
@@ -174,6 +174,7 @@ Set<T> synchronizedSet(Set<T> set) → 동기화된 Set 반환
 
 #### 4-1. HashMap  
 > 대표적인 Map 자료 구조  
+
 ```
   Map<Integer, String> map = new HashMap<>();
   map.put(2, "test1");
@@ -261,7 +262,7 @@ Set<T> synchronizedSet(Set<T> set) → 동기화된 Set 반환
 
 <br/>
 <br/>
-###### #Reference  
+###### #Reference
 
 [참고](https://memostack.tistory.com/234)
 
