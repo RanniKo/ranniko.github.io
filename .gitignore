@@ -20,3 +20,4 @@ Gemfile.lock
 node_modules
 package-lock.json
 sample/
+_posts/softeer/
